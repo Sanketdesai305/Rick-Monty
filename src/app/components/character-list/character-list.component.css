@@ -1,0 +1,29 @@
+
+.detail {
+    align-items: center;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+  }
+  .detail :first-child{
+    font-size: 35px;
+  }
+  li:nth-child(3), li:nth-child(5){
+    opacity: 0.5;
+    font-size: 20px;
+  }
+  .mg{
+    border:10px solid rgb(53, 52, 52);
+    background-color: #666;
+    border-radius: 15px;
+    padding: 50px;
+    width: 600px;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .mg a {
+    text-decoration: none;
+    display: flex;
+  }

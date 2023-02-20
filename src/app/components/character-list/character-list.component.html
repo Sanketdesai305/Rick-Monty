@@ -1,0 +1,16 @@
+
+    <h1>Characters List</h1>
+    <div class="mg" *ngFor="let a of characterList">
+      <a [routerLink]="['/character-details', a.id]">
+        <img src={{a.image}} alt="Girl in a jacket" width="150" height="200">
+        <ul class ='detail'>
+            <li>{{a.name}}</li>
+            <li>Species: {{a.species}}</li>
+            <li>First seen in:</li>
+            <li>{{a.origin.name}}</li>
+            <li>Last seen in</li>
+            <li>{{a.location.name}}</li>
+        </ul>
+      </a>
+    </div>
+
