@@ -1,5 +1,9 @@
 # LearnMall
 
+Either Download the zip file or run the cmd "git clone <url>"
+navigate to the project folder and "do npm install"
+after installing all packages run "ng serve" to see the project live..
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.6.
 
 ## Development server
